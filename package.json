@@ -1,8 +1,8 @@
 {
-  "homepage": "https://opeyemibami.github.io/yhemmy",
+  "homepage": "https://opeyemibami.github.io/",
   "name": "yhemmy",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "colorthief": "^2.3.0",
     "enzyme": "^3.11.0",
