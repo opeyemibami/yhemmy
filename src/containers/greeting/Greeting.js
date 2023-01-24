@@ -56,7 +56,10 @@ export default function Greeting() {
             ) : (
               <img
                 alt="man sitting on table"
-                src={require("../../assets/images/".concat(selected_ind,".JPG"))}
+                src={require("../../assets/images/".concat(
+                  selected_ind,
+                  ".JPG"
+                ))}
               ></img>
             )}
           </div>

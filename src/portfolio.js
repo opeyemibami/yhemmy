@@ -390,7 +390,7 @@ const bigProjects = {
         //  you can add extra buttons here.
       ]
     },
-        {
+    {
       image: require("./assets/images/gcp.webp"),
       projectName: "Deploying Machine Learning Models on Google Cloud Platform",
       projectDesc:
@@ -457,7 +457,7 @@ const bigProjects = {
         }
         //  you can add extra buttons here.
       ]
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
