@@ -19,7 +19,7 @@ export default function PhDProjects() {
   }
   return (
     <Fade bottom duration={1000} distance="20px">
-      <div className="main" id="projects">
+      <div className="main" id="phd">
         <div>
           <h1 className="skills-heading">{phdWorks.title}</h1>
           <p
