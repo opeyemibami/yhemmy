@@ -126,7 +126,7 @@ const educationInfo = {
       subHeader:
         "Bachelor of Science in Systems Engineering (First-Class honours) ",
       duration: "June 2016 - September 2021",
-      desc: "My final project: Research and Design of SAAS for Gleason score prediction to measure the severity of prostate cancer using Artificial Intelligence.",
+      desc: "My final project: Research and Development of SAAS for Gleason score prediction to measure the severity of prostate cancer using Artificial Intelligence.",
       descBullets: [
         "President for University of Lagos Artificial intelligence club.",
         "Ambassador for Zindi Africa (Data Scientist competition platform for Africa)"
@@ -191,14 +191,14 @@ const workExperiences = {
       desc: "Curacel is an insurtech infrastructure company that helps insurers & partners in Africa and other emerging markets increase the reach and functionality of insurance through cloud-based tools and APIs.",
       descBullets: [
         "Design and implementation of intelligent software and data products aimed at automating insurance claim processing with a special focus on automobile claims",
+        "Design and development DProcessor; An data pipeline for client claim processing based on OCR and other data processing techniques. increasing throughput buy 91% ",
         "Research, development and deployment of information retrieval system using vector search approach",
         "Lead a team of 5 to develop state of the art solutions for auto-claim processing and medical Ops data processing ",
         "Lead a team of 5 to build object detection models and client uploads validation models using deep learning",
         "Developed APIs with technical documentation for both internal and external integration.",
         "Designed and developed AI Project based Micro-services with standard MLOps practices.",
         "Deployment of models using aws sagemaker and aws lightsail for containers",
-        "Data processing and annotating using AWS groundtruth",
-        "Microservice designs, ML Systems designs and deployment"
+        "Data processing and annotating using AWS groundtruth"
       ]
     },
     {
@@ -210,6 +210,7 @@ const workExperiences = {
       descBullets: [
         "Designed and Optimized personalization algorithms for applications using ML, and NLP to provide tailored information, referrals, case management and data on civic, social, and human services.",
         "Designed and developed a natural language processing model to automatically score users' intent against organization criteria for service eligibility",
+        "Design and implement tracking system to capture user behaviours on web for organization and services analytics",
         "Optimized database management with data-populating pipelines and scripts.",
         "Applied data munging and wrangling for AI modelling and product building",
         "Developed powerful Content Management Systems to serve as the interface for clients",
@@ -249,6 +250,54 @@ const workExperiences = {
     }
   ]
 };
+// consultation section
+const consultations = {
+  title: "Consultations",
+  subtitle:
+    "Providing professional advices via contracts, projects and collaborations to individuals and companies",
+  projects: [
+    {
+      image: require("./assets/images/tegus.png"),
+      projectName: "Expert consultation",
+      projectDesc:
+        "Vector search algorithmns and databases such as qdrant,Weaviate, Redis, Milvus and Elastic  ",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.tegus.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/datakirt.jpeg"),
+      projectName: "Data Science Tutor",
+      projectDesc:
+        "Gave series of lectures on Data Science and Machine learning to practitioners and enthusiasts",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.thedatakirk.org.uk/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/mlopsCommunity.png"),
+      projectName: "Technical Writer",
+      projectDesc:
+        "Wrote detailed series on Test-Driven Development in MLOps with code snippests, and clear & concise documentation for technical audiences",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://mlops.community/"
+        }
+        //  you can add extra buttons here.
+      ]
+    }
+  ],
+  display: true // Set false to hide this section, defaults to true
+};
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
@@ -273,6 +322,19 @@ const phdWorks = {
         {
           // name: "Visit Website",
           // url: "http://saayahealth.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/irisscon.png"),
+      projectName: "Conference",
+      projectDesc:
+        "IRISSCON: Annual Irish reporting and information security service conference themed on cyber crime; overview of the current cyber threats facing businesses in Ireland and what they can do to help deal with those threats.",
+      footerLink: [
+        {
+          name: "Attendee",
+          url: "https://iriss.ie/irisscon/#speakers"
         }
         //  you can add extra buttons here.
       ]
@@ -540,6 +602,19 @@ const achievementSection = {
       ]
     },
     {
+      title: "Poster presentation 3rd place Winner 2021",
+      subtitle:
+        "The Faculty of Basic Medical Sciences, College of Medicine University of Lagos (CMUL) Annual Scientific Conference with the theme, “Prioritizing High Impact Basic and Translational Medical Research for Pandemic Preparedness.”",
+      image: require("./assets/images/poster.png"),
+      imageAlt: "Google Code-In Logo",
+      footerLink: [
+        {
+          name: "View Poster",
+          url: "https://drive.google.com/file/d/1hE9ArXjd8i4_CeIzcaeEauciYvqOLix9/view?usp=share_link"
+        }
+      ]
+    },
+    {
       title: "Zindi Africa Ambassador for Nigeria (2020-2021)",
       subtitle:
         "Zindi is the first data science competition platform in Africa. Zindi hosts an entire data science ecosystem of scientists, engineers, academics, companies, NGOs, governments and institutions focused on solving Africa’s most pressing problems. After lots of hands-on competitions and being among the top 1% Data Scientists on the platform, I was awarded ambassadorship (2020-2021)",
@@ -743,6 +818,7 @@ export {
   educationInfo,
   techStack,
   workExperiences,
+  consultations,
   openSource,
   bigProjects,
   phdWorks,
