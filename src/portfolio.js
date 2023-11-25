@@ -23,7 +23,7 @@ const greeting = {
   username: "Opeyemi Bamigbade",
   title: "Hi all, I'm Yhemmy",
   subTitle: emoji(
-    "A passionate Data Scientist, Machine Learning & AI Engineer, Software and Systems Engineer 🚀 having experience in MLOps & Backend Development for Artificial Intelligence driven products. A PhD student with research interest in Computer Vision Techniques for Digital Forensics, AI in Cybersecurity, and Multimedia Content Geolocation 👨🏻‍💻"
+    "A passionate Data Scientist, Machine Learning & AI Engineer, Software and Systems Engineer having experience in MLOps & Backend Development for Artificial Intelligence driven products 🚀. A PhD student with research focus on Computer Vision Techniques for Digital Image & Video Forensic Geolocation👨🏻‍💻"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ebm5xsTAI1lcDNraxCzSxAlt63vl1icf/view?usp=share_link", // Set to empty to hide the button
@@ -62,8 +62,10 @@ const skillsSection = {
       "⚡ Research and Development of AI-Driven Products as applied to a domain"
     ),
     emoji("⚡ Design and Development of Machine Learning Systems that Scale"),
-    emoji("⚡ Experience of working with Computer Vision and NLP techniques"),
-    emoji("⚡ Cloud computing for ML & AI with GCP and AWS"),
+    emoji("⚡ Applied Computer Vision and NLP techniques for automation"),
+    emoji(
+      "⚡ Cloud Architecting and Computing for ML & AI product deployment on AWS & GCP"
+    ),
     emoji("⚡ Backend development with Python and JavaScript")
   ],
 
@@ -117,7 +119,7 @@ const educationInfo = {
       logo: require("./assets/images/SETULogo.webp"),
       subHeader: "PHD Student",
       duration: "November 2022 - September 2026",
-      desc: "Computer Vision Techniques for Digital forensice",
+      desc: "Computer Vision Techniques for Digital Image & Video Forensic Geolocation",
       descBullets: []
     },
     {
@@ -135,7 +137,7 @@ const educationInfo = {
     {
       schoolName: "Yaba College of Technology",
       logo: require("./assets/images/yabatechLogo.png"),
-      subHeader: "National Deploma in Computer Engineering (distinction)",
+      subHeader: "National Deploma in Computer Engineering (Distinction)",
       duration: "August 2014 - September 2016",
       desc: "Ranked top 1% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
       descBullets: [
@@ -254,13 +256,13 @@ const workExperiences = {
 const consultations = {
   title: "Consultations",
   subtitle:
-    "Providing professional advices via contracts, projects and collaborations to individuals and companies",
+    "Providing professional consultation via contracts, projects and collaborations",
   projects: [
     {
       image: require("./assets/images/tegus.png"),
       projectName: "Expert consultation",
       projectDesc:
-        "Vector search algorithmns and databases such as qdrant,Weaviate, Redis, Milvus and Elastic  ",
+        "Vector search algorithmns and databases such as Qdrant,Weaviate, Redis, Milvus and Elastic  ",
       footerLink: [
         {
           name: "Visit Website",
@@ -317,7 +319,7 @@ const phdWorks = {
       image: require("./assets/images/PhDPortfolio.jpeg"),
       projectName: "PhD Research Interest",
       projectDesc:
-        "Computer vision Techniques to Digital Forensics & Media Content Geolocation, AI in Cybersecurity ",
+        "Computer Vision Techniques for Digital Image & Video Forensic Geolocation",
       footerLink: [
         {
           // name: "Visit Website",
